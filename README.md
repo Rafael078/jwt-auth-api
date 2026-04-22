@@ -55,8 +55,10 @@ src/main/java/com/example/loginauthapi
 ✔️ JWT token generation
 ✔️ Protected routes with Spring Security
 ✔️ Stateless authentication
+
 🔐 Authentication Flow
 User Login → Validate Credentials → Generate JWT → Access Protected Routes
+
 📡 API Endpoints
 🔓 Login
 POST /auth/login
@@ -70,17 +72,20 @@ POST /auth/login
 {
   "token": "jwt_token_here"
 }
+
 📝 Register
 POST /auth/register
 {
   "email": "user@email.com",
   "password": "123456"
 }
+
 🔒 Authorization
 
 All protected endpoints require a JWT token:
 
 Authorization: Bearer {token}
+
 ⚡ Getting Started
 Requirements
 Java 17+
@@ -89,6 +94,7 @@ Run the project
 git clone https://github.com/Rafael078/jwt-auth-api.git
 cd jwt-auth-api
 mvn spring-boot:run
+
 🧪 Testing
 
 You can test the API using:
