@@ -48,6 +48,7 @@ src/main/java/com/example/loginauthapi
 ├── dto              # Data transfer objects
 ├── infra.security   # Security layer (JWT, filters, config)
 ├── repositories     # Database access
+
 🔑 Features
 ✔️ User registration
 ✔️ Secure login authentication
